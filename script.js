@@ -5,8 +5,7 @@ function stringChop(str, size) {
   }
   return ans;
 }
-
 // Do not change the code below
 const str = prompt("Enter String.");
-const size = parseInt(prompt("Enter Chunk Size."), 10);
+const size = prompt("Enter Chunk Size.");
 alert(stringChop(str, size));
